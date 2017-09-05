@@ -1,5 +1,3 @@
-## Fullstack Application for Toptal Interview
-
 ### Client
 
 * React
