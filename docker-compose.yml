@@ -1,0 +1,19 @@
+version: '3'
+
+services:
+  frontend:
+    image: 'jaredramirez/expense-tracker-client:latest'
+    ports:
+     - '5000:5000'
+    volumes:
+      - ./expense-tracker-client:/usr/src/app
+    command: ['yarn', 'start']
+    restart: always
+  backend:
+    image: 'jaredramirez/expense-tracker-server:latest'
+    ports:
+     - '2000:2000'
+    restart: always
+    volumes:
+      - ./expense-tracker-server:/usr/src/app
+    command: ['yarn', 'start:dev']

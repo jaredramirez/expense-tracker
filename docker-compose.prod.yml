@@ -1,0 +1,8 @@
+version: '2'
+
+services:
+  server:
+    image: 'jaredramirez/expense-tracker-server:latest'
+    ports:
+     - '2000:2000'
+    restart: always

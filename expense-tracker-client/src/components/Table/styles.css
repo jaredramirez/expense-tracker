@@ -1,0 +1,18 @@
+.ReactTable {
+  border-color: #979797 !important;
+}
+
+.ReactTable .rt-thead.-header {
+  box-shadow: none !important;
+  border-bottom-color: #B6B6B6;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+}
+
+.ReactTable .-pagination .-btn {
+  border-radius: 0px !important;
+}
+
+.ReactTable input, .ReactTable select {
+  border-radius: 0px !important;
+}

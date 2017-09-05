@@ -1,0 +1,27 @@
+/* Have to use raw css to override react-select styles */
+.Select:focus {
+  outline: none;
+}
+
+.Select-control {
+  border: none;
+  font-size: 16px;
+  box-shadow: none !important;
+  padding: 6px 25px;
+}
+.Select-value-label {
+  padding: 14px 25px;
+}
+
+.Select-value, .Select-input {
+  top: auto !important;
+  bottom: auto !important;
+  padding-left: 0px !important;
+}
+
+.Select-menu-outer {
+  border-radius: 0px;
+  border-color: #979797;
+  box-sizing: none;
+  padding: 0 !important;
+}

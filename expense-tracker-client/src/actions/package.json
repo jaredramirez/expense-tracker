@@ -1,0 +1,8 @@
+{
+  "name": "actions",
+  "version": "1.0.0",
+  "description": "",
+  "main": "auth.js",
+  "author": "",
+  "license": "ISC"
+}
